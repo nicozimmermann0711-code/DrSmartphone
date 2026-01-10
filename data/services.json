@@ -1,0 +1,247 @@
+{
+  "services": [
+    {
+      "slug": "screen",
+      "name": "Bildschirmreparatur",
+      "shortDescription": "Ersetzen Sie Ihren beschädigten Bildschirm durch originale Ersatzteile.",
+      "description": "Unser professioneller Bildschirmreparaturservice bringt Ihr Smartphone wieder in einen einwandfreien Zustand. Ob Risse, Kratzer oder komplett zerstörtes Display – wir verwenden ausschließlich hochwertige Ersatzteile und garantieren eine präzise Installation.",
+      "icon": "service-screen.svg",
+      "priceRange": "€89 - €289",
+      "turnaround": "2-4 Stunden",
+      "warranty": "12 Monate",
+      "includes": [
+        "Kostenlose Diagnose",
+        "Original oder OEM-Qualität Display",
+        "Professionelle Installation",
+        "Funktionstest aller Sensoren",
+        "Wasserdichtung erneuern (wenn möglich)",
+        "Reinigung des Geräts"
+      ],
+      "prices": [
+        { "device": "iPhone 12/13", "price": "€149" },
+        { "device": "iPhone 14/15", "price": "€189" },
+        { "device": "iPhone 15 Pro/Pro Max", "price": "€289" },
+        { "device": "Samsung Galaxy S23", "price": "€169" },
+        { "device": "Samsung Galaxy S24", "price": "€199" },
+        { "device": "Andere Modelle", "price": "ab €89" }
+      ],
+      "process": [
+        "Gerät abgeben und kostenlose Diagnose erhalten",
+        "Angebot bestätigen und Reparatur starten",
+        "Display fachgerecht austauschen",
+        "Vollständiger Funktionstest",
+        "Gerät abholen oder Lieferung erhalten"
+      ],
+      "faqs": [
+        {
+          "question": "Wie lange dauert eine Bildschirmreparatur?",
+          "answer": "Die meisten Bildschirmreparaturen werden innerhalb von 2-4 Stunden abgeschlossen. Bei komplexeren Schäden oder seltenen Modellen kann es bis zu 24 Stunden dauern."
+        },
+        {
+          "question": "Verliere ich meine Daten bei der Reparatur?",
+          "answer": "Nein, bei einer normalen Bildschirmreparatur bleiben alle Ihre Daten erhalten. Wir empfehlen dennoch immer ein Backup vor jeder Reparatur."
+        },
+        {
+          "question": "Sind die Ersatzteile original?",
+          "answer": "Wir bieten sowohl Original- als auch hochwertige OEM-Ersatzteile an. Die Qualität und Garantie sind in beiden Fällen gewährleistet."
+        }
+      ]
+    },
+    {
+      "slug": "battery",
+      "name": "Akku-Austausch",
+      "shortDescription": "Verlängern Sie die Lebensdauer Ihres Handys durch einen neuen Akku.",
+      "description": "Ein schwacher Akku ist einer der häufigsten Gründe für Smartphone-Probleme. Unser Akku-Austauschservice gibt Ihrem Gerät neue Energie und verlängert seine Lebensdauer um Jahre. Wir verwenden nur zertifizierte Akkus mit maximaler Kapazität.",
+      "icon": "service-battery.svg",
+      "priceRange": "€45 - €89",
+      "turnaround": "1 Stunde",
+      "warranty": "12 Monate",
+      "includes": [
+        "Kostenloser Akkutest",
+        "Zertifizierter Ersatzakku",
+        "Professioneller Einbau",
+        "Kalibrierung des neuen Akkus",
+        "Dichtigkeitstest",
+        "Entsorgung des alten Akkus"
+      ],
+      "prices": [
+        { "device": "iPhone 12/13", "price": "€59" },
+        { "device": "iPhone 14/15", "price": "€69" },
+        { "device": "iPhone 15 Pro/Pro Max", "price": "€89" },
+        { "device": "Samsung Galaxy S23/S24", "price": "€65" },
+        { "device": "Andere Modelle", "price": "ab €45" }
+      ],
+      "process": [
+        "Akku-Gesundheitstest durchführen",
+        "Passendes Ersatzteil auswählen",
+        "Alten Akku fachgerecht entfernen",
+        "Neuen Akku einsetzen und kalibrieren",
+        "Funktionstest und Übergabe"
+      ],
+      "faqs": [
+        {
+          "question": "Wann sollte ich meinen Akku tauschen?",
+          "answer": "Ein Akkutausch wird empfohlen, wenn die Akkukapazität unter 80% fällt, das Gerät sich unerwartet ausschaltet oder der Akku sichtbar aufgebläht ist."
+        },
+        {
+          "question": "Wie lange hält ein neuer Akku?",
+          "answer": "Ein neuer Akku hält typischerweise 2-3 Jahre bei normaler Nutzung, bevor die Kapazität merklich abnimmt."
+        },
+        {
+          "question": "Bleibt die Wasserdichtigkeit erhalten?",
+          "answer": "Ja, wir erneuern die Dichtungen beim Akkutausch, um die ursprüngliche IP-Schutzklasse so weit wie möglich zu erhalten."
+        }
+      ]
+    },
+    {
+      "slug": "data-recovery",
+      "name": "Datenrettung",
+      "shortDescription": "Professionelle Wiederherstellung Ihrer wichtigen Daten von defekten Geräten.",
+      "description": "Daten sind oft wertvoller als das Gerät selbst. Unser Datenrettungsservice hilft Ihnen, Fotos, Kontakte, Nachrichten und andere wichtige Daten von beschädigten oder nicht startenden Geräten zu retten. Wir arbeiten mit modernster Technologie und höchster Diskretion.",
+      "icon": "service-data-recovery.svg",
+      "priceRange": "ab €99",
+      "turnaround": "24-72 Stunden",
+      "warranty": "Erfolgsgarantie",
+      "includes": [
+        "Kostenlose Erstdiagnose",
+        "Analyse der Schadensart",
+        "Datenextraktion mit Spezialwerkzeugen",
+        "Sichere Übertragung auf neues Medium",
+        "Streng vertrauliche Behandlung",
+        "Keine Kosten bei Misserfolg"
+      ],
+      "prices": [
+        { "device": "Software-Problem", "price": "€99" },
+        { "device": "Wasserschaden", "price": "ab €149" },
+        { "device": "Physischer Schaden", "price": "ab €199" },
+        { "device": "Chip-Level Reparatur", "price": "ab €299" }
+      ],
+      "process": [
+        "Gerät einschicken oder vorbeibringen",
+        "Kostenlose Schadensanalyse",
+        "Angebot mit Erfolgsaussicht",
+        "Datenrettung durchführen",
+        "Daten auf USB-Stick oder Cloud übertragen"
+      ],
+      "faqs": [
+        {
+          "question": "Können Sie Daten von Wasserschäden retten?",
+          "answer": "In vielen Fällen ja. Die Erfolgsquote hängt davon ab, wie schnell das Gerät zu uns kommt und wie schwer der Schaden ist. Schalten Sie das Gerät nicht ein!"
+        },
+        {
+          "question": "Sind meine Daten sicher?",
+          "answer": "Absolut. Wir behandeln alle Daten streng vertraulich, arbeiten in gesicherten Räumen und löschen alle Kopien nach erfolgreicher Übergabe an Sie."
+        },
+        {
+          "question": "Was, wenn die Datenrettung nicht klappt?",
+          "answer": "Bei uns gilt: Keine Daten, keine Kosten. Sie zahlen nur, wenn wir Ihre Daten erfolgreich retten können."
+        }
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "name": "Diagnose",
+      "shortDescription": "Kostenlose professionelle Fehleranalyse für Ihr Smartphone.",
+      "description": "Unsicher, was mit Ihrem Gerät nicht stimmt? Unsere kostenlose Diagnose identifiziert alle Probleme schnell und zuverlässig. Unsere Techniker prüfen Hardware und Software systematisch und erstellen einen detaillierten Bericht mit Reparaturempfehlungen.",
+      "icon": "service-diagnostics.svg",
+      "priceRange": "KOSTENLOS",
+      "turnaround": "30 Minuten",
+      "warranty": "-",
+      "includes": [
+        "Vollständiger Hardware-Check",
+        "Software-Analyse",
+        "Akkugesundheitstest",
+        "Display-Funktionstest",
+        "Kamera- und Sensorprüfung",
+        "Detaillierter Diagnosebericht"
+      ],
+      "prices": [
+        { "device": "Alle Smartphone-Modelle", "price": "KOSTENLOS" },
+        { "device": "Tablets", "price": "KOSTENLOS" }
+      ],
+      "process": [
+        "Gerät abgeben",
+        "Systematische Prüfung aller Komponenten",
+        "Diagnosebericht erstellen",
+        "Reparaturoptionen besprechen",
+        "Entscheidung ohne Druck"
+      ],
+      "faqs": [
+        {
+          "question": "Ist die Diagnose wirklich kostenlos?",
+          "answer": "Ja, unsere Standarddiagnose ist immer kostenlos – unabhängig davon, ob Sie sich für eine Reparatur entscheiden oder nicht."
+        },
+        {
+          "question": "Wie lange dauert eine Diagnose?",
+          "answer": "Eine vollständige Diagnose dauert in der Regel 30 Minuten. Bei komplexeren Problemen kann es etwas länger dauern."
+        },
+        {
+          "question": "Muss ich einen Termin machen?",
+          "answer": "Nein, Sie können während unserer Öffnungszeiten jederzeit vorbeikommen. Bei hohem Andrang kann es zu kurzen Wartezeiten kommen."
+        }
+      ]
+    },
+    {
+      "slug": "software",
+      "name": "Software-Wiederherstellung",
+      "shortDescription": "Beheben Sie technische Probleme mit einer professionellen Fehlerbeseitigung.",
+      "description": "Softwareprobleme können genauso frustrierend sein wie Hardwareschäden. Unser Software-Service behebt Boot-Probleme, entfernt Viren, aktualisiert Betriebssysteme und optimiert die Leistung Ihres Geräts – ohne Datenverlust wenn möglich.",
+      "icon": "service-diagnostics.svg",
+      "priceRange": "€39 - €79",
+      "turnaround": "1-2 Stunden",
+      "warranty": "30 Tage",
+      "includes": [
+        "Systemdiagnose",
+        "Virenentfernung",
+        "OS-Update oder Neuinstallation",
+        "App-Optimierung",
+        "Datenbackup (optional)",
+        "Einrichtungsassistenz"
+      ],
+      "prices": [
+        { "device": "Software-Update", "price": "€39" },
+        { "device": "System-Neuinstallation", "price": "€59" },
+        { "device": "Komplette Wiederherstellung", "price": "€79" }
+      ],
+      "process": [
+        "Problem beschreiben und Backup erstellen",
+        "Systemanalyse durchführen",
+        "Passende Lösung anwenden",
+        "System testen und optimieren",
+        "Gerät zurückgeben mit Anleitung"
+      ],
+      "faqs": [
+        {
+          "question": "Verliere ich meine Daten?",
+          "answer": "Wir versuchen immer, Ihre Daten zu erhalten. Vor jeder größeren Software-Änderung erstellen wir ein Backup, falls möglich."
+        },
+        {
+          "question": "Können Sie gesperrte Geräte entsperren?",
+          "answer": "Wir können nur Geräte entsperren, deren rechtmäßiger Besitzer Sie sind. Ein Eigentumsnachweis ist erforderlich."
+        }
+      ]
+    }
+  ],
+  "company": {
+    "name": "Dr. Smartphone 48",
+    "tagline": "Klinische Diagnose. Präzise Reparatur.",
+    "address": {
+      "street": "Zur Friedrichsburg 8",
+      "zip": "48268",
+      "city": "Greven",
+      "country": "Deutschland"
+    },
+    "phone": "+49 177 5196018",
+    "phoneFormatted": "0177 5196018",
+    "whatsapp": "+491775196018",
+    "email": "drsmartphone48268@gmail.com",
+    "hours": {
+      "weekdays": "Mo-Fr: 11:00 - 19:00 Uhr",
+      "saturday": "Geschlossen",
+      "sunday": "Geschlossen"
+    },
+    "legal": {
+      "vatId": "DE458241430"
+    }
+  }
+}
