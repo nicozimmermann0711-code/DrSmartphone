@@ -60,8 +60,8 @@
       </div>
     </section>
 
-    <!-- Booking Steps Preview -->
-    <section class="section">
+    <!-- Booking Steps -->
+    <section class="section booking-flow">
       <div class="container">
         <div class="booking-steps" aria-label="Buchungsschritte">
           <div class="booking-step active">
@@ -74,61 +74,111 @@
           </div>
           <div class="booking-step">
             <img src="../assets/brand/progress-inactive.svg" alt="" class="booking-step-icon" aria-hidden="true">
-            <span>3. Termin</span>
-          </div>
-          <div class="booking-step">
-            <img src="../assets/brand/progress-inactive.svg" alt="" class="booking-step-icon" aria-hidden="true">
-            <span>4. Kontakt</span>
-          </div>
-          <div class="booking-step">
-            <img src="../assets/brand/progress-inactive.svg" alt="" class="booking-step-icon" aria-hidden="true">
-            <span>5. Bestätigung</span>
+            <span>3. Angebot</span>
           </div>
         </div>
-        
-        <!-- Booking Form - Step 1 Preview -->
-        <div style="max-width: 600px; margin: 0 auto;">
-          <div class="sidebar-card">
-            <h2 style="margin-bottom: var(--space-xl);">Wählen Sie Ihr Gerät</h2>
-            
-            <div class="form-group">
-              <label for="device-brand" class="form-label">Marke *</label>
-              <select id="device-brand" class="form-select" required>
-                <option value="">Bitte wählen...</option>
-                <option value="apple">Apple iPhone</option>
-                <option value="samsung">Samsung Galaxy</option>
-                <option value="google">Google Pixel</option>
-                <option value="oneplus">OnePlus</option>
-                <option value="xiaomi">Xiaomi</option>
-                <option value="huawei">Huawei</option>
-                <option value="other">Andere Marke</option>
-              </select>
+
+        <div class="booking-grid">
+          <section class="booking-step-card" aria-labelledby="step-1-title">
+            <div class="step-header">
+              <span class="step-pill text-uppercase">Step 1</span>
+              <h2 id="step-1-title">Gerät auswählen</h2>
+              <p>Finden Sie Ihr Gerät und markieren Sie die Schadensstelle über die Hotspot-Zonen.</p>
             </div>
-            
-            <div class="form-group">
-              <label for="device-model" class="form-label">Modell *</label>
-              <input type="text" id="device-model" class="form-input" placeholder="z.B. iPhone 15 Pro, Galaxy S24" required>
+
+            <div class="device-filters">
+              <div class="filter-group" role="tablist" aria-label="Gerätekategorien">
+                <button class="filter-tab is-active" type="button" data-category="smartphones" role="tab" aria-selected="true">Smartphones</button>
+                <button class="filter-tab" type="button" data-category="tablets" role="tab" aria-selected="false">Tablets</button>
+                <button class="filter-tab" type="button" data-category="consoles" role="tab" aria-selected="false">Consoles</button>
+                <button class="filter-tab" type="button" data-category="controllers" role="tab" aria-selected="false">Controllers</button>
+              </div>
+
+              <div class="filter-search">
+                <label for="device-search" class="form-label">Suche</label>
+                <input id="device-search" class="form-input" type="search" placeholder="z.B. iPhone 15, Galaxy Tab, Switch" autocomplete="off">
+              </div>
+
+              <div class="filter-chips" aria-label="Markenfilter" id="brand-chips"></div>
             </div>
-            
-            <div class="form-group">
-              <label for="device-issue" class="form-label">Problembeschreibung</label>
-              <textarea id="device-issue" class="form-textarea" placeholder="Beschreiben Sie kurz das Problem mit Ihrem Gerät..." rows="4"></textarea>
+
+            <div class="device-summary" aria-live="polite">
+              <span class="summary-label">Auswahl:</span>
+              <span id="selected-device-label" class="summary-value">Noch kein Gerät gewählt</span>
+              <span id="selected-area-label" class="summary-badge">Keine Zone gewählt</span>
             </div>
-            
-            <p class="text-muted mb-lg" style="font-size: 0.875rem;">
-              <strong>Hinweis:</strong> Diese Seite ist eine Vorschau. Der vollständige Buchungsprozess wird in der nächsten Version verfügbar sein.
-            </p>
-            
-            <div style="display: flex; gap: var(--space-md); flex-wrap: wrap;">
-              <a href="../contact/" class="btn btn-primary" style="flex: 1;">Termin anfragen</a>
-              <a href="tel:+491775196018" class="btn btn-secondary" style="flex: 1;">
-                Direkt anrufen
-              </a>
+
+            <div class="device-grid" id="device-grid" role="list"></div>
+          </section>
+
+          <section class="booking-step-card" aria-labelledby="step-2-title">
+            <div class="step-header">
+              <span class="step-pill text-uppercase">Step 2</span>
+              <h2 id="step-2-title">Service auswählen</h2>
+              <p>Wählen Sie die gewünschten Services. Hotspots setzen automatisch passende Services.</p>
+            </div>
+
+            <div class="service-grid" id="service-list"></div>
+          </section>
+
+          <section class="booking-step-card" aria-labelledby="step-3-title">
+            <div class="step-header">
+              <span class="step-pill text-uppercase">Step 3</span>
+              <h2 id="step-3-title">Angebot</h2>
+              <p>Ihre vorläufige Kalkulation auf Basis der Auswahl.</p>
+            </div>
+
+            <div class="quote-panel" id="quote-panel">
+              <div class="quote-row">
+                <span>Gerät</span>
+                <strong id="quote-device">Noch kein Gerät</strong>
+              </div>
+              <div class="quote-row">
+                <span>Zone</span>
+                <strong id="quote-area">Keine Zone</strong>
+              </div>
+              <div class="quote-services" id="quote-services"></div>
+              <div class="quote-total">
+                <span>Gesamt</span>
+                <strong id="quote-total">0,00 €</strong>
+              </div>
+              <div class="quote-actions">
+                <a href="../contact/" class="btn btn-primary btn-block">Termin anfragen</a>
+                <a href="tel:+491775196018" class="btn btn-secondary btn-block">Direkt anrufen</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <div class="device-modal" id="device-modal" aria-hidden="true">
+      <div class="device-modal-backdrop" data-modal-close></div>
+      <div class="device-modal-content" role="dialog" aria-modal="true" aria-labelledby="device-modal-title">
+        <button class="modal-close" type="button" data-modal-close aria-label="Detailansicht schließen">×</button>
+        <div class="device-modal-header">
+          <div>
+            <p class="text-uppercase text-mono">Device Detail</p>
+            <h3 id="device-modal-title">Gerät</h3>
+          </div>
+          <span class="selected-area-pill" id="modal-selected-area">Keine Zone</span>
+        </div>
+        <div class="device-modal-body">
+          <div class="device-image-wrapper" id="device-image-wrapper">
+            <img id="device-modal-image" alt="">
+          </div>
+          <div class="device-modal-info">
+            <p class="text-muted">Tippen Sie auf eine Zone, um passende Services automatisch zu markieren.</p>
+            <button class="btn btn-secondary btn-reset" type="button" id="hotspot-reset">Zone zurücksetzen</button>
+            <div class="hotspot-legend">
+              <div class="legend-item"><span class="legend-dot"></span>Standard</div>
+              <div class="legend-item"><span class="legend-dot is-hover"></span>Hover</div>
+              <div class="legend-item"><span class="legend-dot is-active"></span>Aktiv</div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- Alternative Contact Options -->
     <section class="section bg-dark">
@@ -268,5 +318,6 @@
   </footer>
 
   <script type="module" src="/js/main.js"></script>
+  <script type="module" src="../assets/js/booking.js"></script>
 </body>
 </html>

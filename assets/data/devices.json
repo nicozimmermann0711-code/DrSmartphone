@@ -1,0 +1,942 @@
+[
+  {
+    "id": "iphone-12",
+    "category": "smartphones",
+    "brand": "Apple",
+    "model": "iPhone 12",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.0,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.62, "y": 0.15, "w": 0.16, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "iphone-13",
+    "category": "smartphones",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.05,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "iphone-14",
+    "category": "smartphones",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.1,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "iphone-15",
+    "category": "smartphones",
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.15,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "iphone-15-pro",
+    "category": "smartphones",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.25,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.58, "y": 0.15, "w": 0.2, "h": 0.14},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "iphone-16-pro",
+    "category": "smartphones",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.35,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.58, "y": 0.15, "w": 0.2, "h": 0.14},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "galaxy-s21",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.0,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.21, "y": 0.14, "w": 0.58, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.15, "w": 0.16, "h": 0.22},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "galaxy-s22",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S22",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.05,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.21, "y": 0.14, "w": 0.58, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.15, "w": 0.16, "h": 0.22},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "galaxy-s23",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S23",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.12,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.21, "y": 0.14, "w": 0.58, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.15, "w": 0.16, "h": 0.22},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "galaxy-s24",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S24",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.2,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.21, "y": 0.14, "w": 0.58, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.15, "w": 0.16, "h": 0.22},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "galaxy-s24-ultra",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.35,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.21, "y": 0.14, "w": 0.58, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.21, "y": 0.15, "w": 0.2, "h": 0.24},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "pixel-7",
+    "category": "smartphones",
+    "brand": "Google",
+    "model": "Pixel 7",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.0,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.18, "w": 0.56, "h": 0.08},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "pixel-7a",
+    "category": "smartphones",
+    "brand": "Google",
+    "model": "Pixel 7a",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 0.95,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.18, "w": 0.56, "h": 0.08},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "pixel-8",
+    "category": "smartphones",
+    "brand": "Google",
+    "model": "Pixel 8",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.1,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.18, "w": 0.56, "h": 0.08},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "pixel-8-pro",
+    "category": "smartphones",
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.2,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.18, "w": 0.56, "h": 0.1},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "pixel-9",
+    "category": "smartphones",
+    "brand": "Google",
+    "model": "Pixel 9",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.25,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.22, "y": 0.18, "w": 0.56, "h": 0.1},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "oneplus-10",
+    "category": "smartphones",
+    "brand": "OnePlus",
+    "model": "OnePlus 10",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 0.98,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "oneplus-11",
+    "category": "smartphones",
+    "brand": "OnePlus",
+    "model": "OnePlus 11",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.05,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.58, "y": 0.16, "w": 0.2, "h": 0.14},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "oneplus-12",
+    "category": "smartphones",
+    "brand": "OnePlus",
+    "model": "OnePlus 12",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.15,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.58, "y": 0.16, "w": 0.2, "h": 0.14},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "xiaomi-12",
+    "category": "smartphones",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 12",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 0.95,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "xiaomi-13",
+    "category": "smartphones",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 13",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.0,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "xiaomi-14",
+    "category": "smartphones",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.08,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "huawei-p50",
+    "category": "smartphones",
+    "brand": "Huawei",
+    "model": "P50",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 0.98,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "huawei-p60",
+    "category": "smartphones",
+    "brand": "Huawei",
+    "model": "P60",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.05,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.6, "y": 0.16, "w": 0.18, "h": 0.12},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "huawei-mate-50",
+    "category": "smartphones",
+    "brand": "Huawei",
+    "model": "Mate 50",
+    "aspect": "phone",
+    "image": "/assets/images/devices/device-phone.svg",
+    "pricingFactor": 1.1,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.22, "y": 0.14, "w": 0.56, "h": 0.68},
+      {"id": "camera", "label": "Kamera", "areaKey": "camera", "type": "rect", "x": 0.58, "y": 0.16, "w": 0.2, "h": 0.14},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.28, "y": 0.4, "w": 0.44, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.2, "y": 0.12},
+        {"x": 0.8, "y": 0.12},
+        {"x": 0.78, "y": 0.88},
+        {"x": 0.22, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "ipad-9",
+    "category": "tablets",
+    "brand": "Apple",
+    "model": "iPad 9",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 1.0,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "Ladeport", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "ipad-10",
+    "category": "tablets",
+    "brand": "Apple",
+    "model": "iPad 10",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 1.05,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "Ladeport", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "ipad-air-5",
+    "category": "tablets",
+    "brand": "Apple",
+    "model": "iPad Air 5",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 1.12,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "Ladeport", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "ipad-pro-11",
+    "category": "tablets",
+    "brand": "Apple",
+    "model": "iPad Pro 11",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 1.2,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "Ladeport", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "ipad-pro-129",
+    "category": "tablets",
+    "brand": "Apple",
+    "model": "iPad Pro 12.9",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 1.25,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "Ladeport", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "galaxy-tab-s8",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S8",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 1.1,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "USB-C", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "galaxy-tab-s9",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S9",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 1.18,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "USB-C", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "galaxy-tab-a8",
+    "category": "tablets",
+    "brand": "Samsung",
+    "model": "Galaxy Tab A8",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 0.9,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "USB-C", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "surface-pro-9",
+    "category": "tablets",
+    "brand": "Microsoft",
+    "model": "Surface Pro 9",
+    "aspect": "tablet",
+    "image": "/assets/images/devices/device-tablet.svg",
+    "pricingFactor": 1.22,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.68},
+      {"id": "port", "label": "USB-C", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.86, "w": 0.08, "h": 0.06},
+      {"id": "battery", "label": "Akku", "areaKey": "battery", "type": "rect", "x": 0.18, "y": 0.32, "w": 0.64, "h": 0.36},
+      {"id": "back", "label": "Rückseite", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.08, "y": 0.12},
+        {"x": 0.92, "y": 0.12},
+        {"x": 0.9, "y": 0.88},
+        {"x": 0.1, "y": 0.88}
+      ]}
+    ]
+  },
+  {
+    "id": "ps5",
+    "category": "consoles",
+    "brand": "Sony",
+    "model": "PlayStation 5",
+    "aspect": "console",
+    "image": "/assets/images/devices/device-console.svg",
+    "pricingFactor": 1.2,
+    "hotspots": [
+      {"id": "hdmi", "label": "HDMI", "areaKey": "hdmi", "type": "rect", "x": 0.76, "y": 0.4, "w": 0.1, "h": 0.08},
+      {"id": "power", "label": "Power", "areaKey": "buttons", "type": "rect", "x": 0.78, "y": 0.32, "w": 0.06, "h": 0.06},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.76, "y": 0.52, "w": 0.1, "h": 0.08},
+      {"id": "vent", "label": "Lüfter", "areaKey": "vent", "type": "polygon", "points": [
+        {"x": 0.15, "y": 0.35},
+        {"x": 0.6, "y": 0.35},
+        {"x": 0.58, "y": 0.65},
+        {"x": 0.17, "y": 0.65}
+      ]}
+    ]
+  },
+  {
+    "id": "ps5-slim",
+    "category": "consoles",
+    "brand": "Sony",
+    "model": "PlayStation 5 Slim",
+    "aspect": "console",
+    "image": "/assets/images/devices/device-console.svg",
+    "pricingFactor": 1.25,
+    "hotspots": [
+      {"id": "hdmi", "label": "HDMI", "areaKey": "hdmi", "type": "rect", "x": 0.76, "y": 0.4, "w": 0.1, "h": 0.08},
+      {"id": "power", "label": "Power", "areaKey": "buttons", "type": "rect", "x": 0.78, "y": 0.32, "w": 0.06, "h": 0.06},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.76, "y": 0.52, "w": 0.1, "h": 0.08},
+      {"id": "vent", "label": "Lüfter", "areaKey": "vent", "type": "polygon", "points": [
+        {"x": 0.15, "y": 0.35},
+        {"x": 0.6, "y": 0.35},
+        {"x": 0.58, "y": 0.65},
+        {"x": 0.17, "y": 0.65}
+      ]}
+    ]
+  },
+  {
+    "id": "xbox-series-x",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "model": "Xbox Series X",
+    "aspect": "console",
+    "image": "/assets/images/devices/device-console.svg",
+    "pricingFactor": 1.22,
+    "hotspots": [
+      {"id": "hdmi", "label": "HDMI", "areaKey": "hdmi", "type": "rect", "x": 0.76, "y": 0.4, "w": 0.1, "h": 0.08},
+      {"id": "power", "label": "Power", "areaKey": "buttons", "type": "rect", "x": 0.78, "y": 0.32, "w": 0.06, "h": 0.06},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.76, "y": 0.52, "w": 0.1, "h": 0.08},
+      {"id": "vent", "label": "Lüfter", "areaKey": "vent", "type": "polygon", "points": [
+        {"x": 0.15, "y": 0.35},
+        {"x": 0.6, "y": 0.35},
+        {"x": 0.58, "y": 0.65},
+        {"x": 0.17, "y": 0.65}
+      ]}
+    ]
+  },
+  {
+    "id": "xbox-series-s",
+    "category": "consoles",
+    "brand": "Microsoft",
+    "model": "Xbox Series S",
+    "aspect": "console",
+    "image": "/assets/images/devices/device-console.svg",
+    "pricingFactor": 1.05,
+    "hotspots": [
+      {"id": "hdmi", "label": "HDMI", "areaKey": "hdmi", "type": "rect", "x": 0.76, "y": 0.4, "w": 0.1, "h": 0.08},
+      {"id": "power", "label": "Power", "areaKey": "buttons", "type": "rect", "x": 0.78, "y": 0.32, "w": 0.06, "h": 0.06},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.76, "y": 0.52, "w": 0.1, "h": 0.08},
+      {"id": "vent", "label": "Lüfter", "areaKey": "vent", "type": "polygon", "points": [
+        {"x": 0.15, "y": 0.35},
+        {"x": 0.6, "y": 0.35},
+        {"x": 0.58, "y": 0.65},
+        {"x": 0.17, "y": 0.65}
+      ]}
+    ]
+  },
+  {
+    "id": "nintendo-switch",
+    "category": "consoles",
+    "brand": "Nintendo",
+    "model": "Switch",
+    "aspect": "console",
+    "image": "/assets/images/devices/device-console.svg",
+    "pricingFactor": 1.0,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.2, "y": 0.35, "w": 0.5, "h": 0.3},
+      {"id": "port", "label": "USB-C", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.68, "w": 0.08, "h": 0.07},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.72, "y": 0.35, "w": 0.12, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.16, "y": 0.3},
+        {"x": 0.84, "y": 0.3},
+        {"x": 0.82, "y": 0.7},
+        {"x": 0.18, "y": 0.7}
+      ]}
+    ]
+  },
+  {
+    "id": "nintendo-switch-oled",
+    "category": "consoles",
+    "brand": "Nintendo",
+    "model": "Switch OLED",
+    "aspect": "console",
+    "image": "/assets/images/devices/device-console.svg",
+    "pricingFactor": 1.1,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.2, "y": 0.35, "w": 0.5, "h": 0.3},
+      {"id": "port", "label": "USB-C", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.68, "w": 0.08, "h": 0.07},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.72, "y": 0.35, "w": 0.12, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.16, "y": 0.3},
+        {"x": 0.84, "y": 0.3},
+        {"x": 0.82, "y": 0.7},
+        {"x": 0.18, "y": 0.7}
+      ]}
+    ]
+  },
+  {
+    "id": "nintendo-switch-lite",
+    "category": "consoles",
+    "brand": "Nintendo",
+    "model": "Switch Lite",
+    "aspect": "console",
+    "image": "/assets/images/devices/device-console.svg",
+    "pricingFactor": 0.9,
+    "hotspots": [
+      {"id": "screen", "label": "Display", "areaKey": "screen", "type": "rect", "x": 0.2, "y": 0.35, "w": 0.5, "h": 0.3},
+      {"id": "port", "label": "USB-C", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.68, "w": 0.08, "h": 0.07},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.72, "y": 0.35, "w": 0.12, "h": 0.28},
+      {"id": "back", "label": "Backcover", "areaKey": "back", "type": "polygon", "points": [
+        {"x": 0.16, "y": 0.3},
+        {"x": 0.84, "y": 0.3},
+        {"x": 0.82, "y": 0.7},
+        {"x": 0.18, "y": 0.7}
+      ]}
+    ]
+  },
+  {
+    "id": "dualsense",
+    "category": "controllers",
+    "brand": "Sony",
+    "model": "DualSense",
+    "aspect": "controller",
+    "image": "/assets/images/devices/device-controller.svg",
+    "pricingFactor": 1.0,
+    "hotspots": [
+      {"id": "joystick", "label": "Joystick", "areaKey": "joystick", "type": "polygon", "points": [
+        {"x": 0.33, "y": 0.46},
+        {"x": 0.39, "y": 0.4},
+        {"x": 0.45, "y": 0.46},
+        {"x": 0.39, "y": 0.52}
+      ]},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.62, "y": 0.42, "w": 0.14, "h": 0.2},
+      {"id": "speaker", "label": "Speaker", "areaKey": "speaker", "type": "rect", "x": 0.46, "y": 0.52, "w": 0.08, "h": 0.08},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.32, "w": 0.08, "h": 0.06}
+    ]
+  },
+  {
+    "id": "dualsense-edge",
+    "category": "controllers",
+    "brand": "Sony",
+    "model": "DualSense Edge",
+    "aspect": "controller",
+    "image": "/assets/images/devices/device-controller.svg",
+    "pricingFactor": 1.15,
+    "hotspots": [
+      {"id": "joystick", "label": "Joystick", "areaKey": "joystick", "type": "polygon", "points": [
+        {"x": 0.33, "y": 0.46},
+        {"x": 0.39, "y": 0.4},
+        {"x": 0.45, "y": 0.46},
+        {"x": 0.39, "y": 0.52}
+      ]},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.62, "y": 0.42, "w": 0.14, "h": 0.2},
+      {"id": "speaker", "label": "Speaker", "areaKey": "speaker", "type": "rect", "x": 0.46, "y": 0.52, "w": 0.08, "h": 0.08},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.32, "w": 0.08, "h": 0.06}
+    ]
+  },
+  {
+    "id": "xbox-controller",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "model": "Xbox Wireless Controller",
+    "aspect": "controller",
+    "image": "/assets/images/devices/device-controller.svg",
+    "pricingFactor": 0.95,
+    "hotspots": [
+      {"id": "joystick", "label": "Joystick", "areaKey": "joystick", "type": "polygon", "points": [
+        {"x": 0.33, "y": 0.46},
+        {"x": 0.39, "y": 0.4},
+        {"x": 0.45, "y": 0.46},
+        {"x": 0.39, "y": 0.52}
+      ]},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.62, "y": 0.42, "w": 0.14, "h": 0.2},
+      {"id": "speaker", "label": "Speaker", "areaKey": "speaker", "type": "rect", "x": 0.46, "y": 0.52, "w": 0.08, "h": 0.08},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.32, "w": 0.08, "h": 0.06}
+    ]
+  },
+  {
+    "id": "xbox-elite",
+    "category": "controllers",
+    "brand": "Microsoft",
+    "model": "Xbox Elite Series 2",
+    "aspect": "controller",
+    "image": "/assets/images/devices/device-controller.svg",
+    "pricingFactor": 1.1,
+    "hotspots": [
+      {"id": "joystick", "label": "Joystick", "areaKey": "joystick", "type": "polygon", "points": [
+        {"x": 0.33, "y": 0.46},
+        {"x": 0.39, "y": 0.4},
+        {"x": 0.45, "y": 0.46},
+        {"x": 0.39, "y": 0.52}
+      ]},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.62, "y": 0.42, "w": 0.14, "h": 0.2},
+      {"id": "speaker", "label": "Speaker", "areaKey": "speaker", "type": "rect", "x": 0.46, "y": 0.52, "w": 0.08, "h": 0.08},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.32, "w": 0.08, "h": 0.06}
+    ]
+  },
+  {
+    "id": "switch-pro-controller",
+    "category": "controllers",
+    "brand": "Nintendo",
+    "model": "Switch Pro Controller",
+    "aspect": "controller",
+    "image": "/assets/images/devices/device-controller.svg",
+    "pricingFactor": 1.0,
+    "hotspots": [
+      {"id": "joystick", "label": "Joystick", "areaKey": "joystick", "type": "polygon", "points": [
+        {"x": 0.33, "y": 0.46},
+        {"x": 0.39, "y": 0.4},
+        {"x": 0.45, "y": 0.46},
+        {"x": 0.39, "y": 0.52}
+      ]},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.62, "y": 0.42, "w": 0.14, "h": 0.2},
+      {"id": "speaker", "label": "Speaker", "areaKey": "speaker", "type": "rect", "x": 0.46, "y": 0.52, "w": 0.08, "h": 0.08},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.32, "w": 0.08, "h": 0.06}
+    ]
+  },
+  {
+    "id": "joy-con-pair",
+    "category": "controllers",
+    "brand": "Nintendo",
+    "model": "Joy-Con Pair",
+    "aspect": "controller",
+    "image": "/assets/images/devices/device-controller.svg",
+    "pricingFactor": 0.85,
+    "hotspots": [
+      {"id": "joystick", "label": "Joystick", "areaKey": "joystick", "type": "polygon", "points": [
+        {"x": 0.33, "y": 0.46},
+        {"x": 0.39, "y": 0.4},
+        {"x": 0.45, "y": 0.46},
+        {"x": 0.39, "y": 0.52}
+      ]},
+      {"id": "buttons", "label": "Buttons", "areaKey": "buttons", "type": "rect", "x": 0.62, "y": 0.42, "w": 0.14, "h": 0.2},
+      {"id": "speaker", "label": "Speaker", "areaKey": "speaker", "type": "rect", "x": 0.46, "y": 0.52, "w": 0.08, "h": 0.08},
+      {"id": "port", "label": "USB", "areaKey": "port", "type": "rect", "x": 0.46, "y": 0.32, "w": 0.08, "h": 0.06}
+    ]
+  }
+]
