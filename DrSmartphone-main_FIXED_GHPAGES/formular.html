@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" type="image/svg+xml" href="./assets/brand/dr-smartphone-48-flat.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Formular – Dr. Smartphone 48</title>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+  <header class="header" role="banner">
+    <div class="header-inner">
+      <a href="./" class="logo" aria-label="Dr. Smartphone 48 - Startseite">
+        <img src="./assets/brand/dr-smartphone-48-icon.svg" alt="" width="40" height="40">
+        <span class="logo-text">Dr. Smartphone 48</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Hauptnavigation">
+        <ul class="nav-list">
+          <li><a href="./" class="nav-link">Startseite</a></li>
+          <li><a href="./services/" class="nav-link">Dienstleistungen</a></li>
+          <li><a href="./index.html#testimonials" class="nav-link">Referenzen</a></li>
+          <li><a href="./index.html#faq" class="nav-link">FAQ</a></li>
+          <li><a href="./contact/" class="nav-link">Kontakt</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="./booking/" class="btn btn-primary">Jetzt Reparatur buchen</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header" aria-labelledby="page-title">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="./">Startseite</a>
+          <span aria-hidden="true">›</span>
+          <span class="current" aria-current="page">Formular</span>
+        </nav>
+        <h1 id="page-title">Formular</h1>
+        <p class="text-muted">Hinweis: Inhalte bitte mit Ihren Unternehmensdaten finalisieren.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card" style="padding: var(--space-2xl);">
+          
+<h2>Kontaktformular</h2>
+<p class="text-muted">Ohne Backend: Klick erzeugt eine E-Mail (mailto). Für echte Formularübermittlung kann später ein Server-Endpoint integriert werden.</p>
+<form id="privacy-form" style="margin-top: var(--space-xl);">
+  <div class="form-group">
+    <label class="form-label" for="fname">Name *</label>
+    <input class="form-input" id="fname" name="fname" required placeholder="Vor- und Nachname" autocomplete="name">
+  </div>
+  <div class="form-group">
+    <label class="form-label" for="femail">E-Mail *</label>
+    <input class="form-input" id="femail" name="femail" type="email" required placeholder="ihre@email.de" autocomplete="email">
+  </div>
+  <div class="form-group">
+    <label class="form-label" for="fcode">Auftragscode (optional)</label>
+    <input class="form-input" id="fcode" name="fcode" placeholder="z.B. DS48-2026-1234">
+  </div>
+  <div class="form-group">
+    <label class="form-label" for="fmsg">Nachricht *</label>
+    <textarea class="form-textarea" id="fmsg" name="fmsg" rows="6" required placeholder="Worum geht es?"></textarea>
+  </div>
+  <label style="display:flex; gap:10px; align-items:flex-start;">
+    <input type="checkbox" required style="margin-top:4px;">
+    <span class="text-muted" style="font-size:0.9rem;">Ich habe die <a href="./datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung zu.</span>
+  </label>
+  <div style="display:flex; flex-wrap:wrap; gap: var(--space-md); margin-top: var(--space-lg);">
+    <button type="submit" class="btn btn-primary">Nachricht vorbereiten</button>
+    <a class="btn btn-secondary" href="./booking/">Jetzt Reparatur buchen</a>
+  </div>
+</form>
+<script>
+  document.getElementById('privacy-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('fname').value.trim();
+    const email = document.getElementById('femail').value.trim();
+    const code = document.getElementById('fcode').value.trim();
+    const msg = document.getElementById('fmsg').value.trim();
+    const subject = encodeURIComponent('Anfrage über Formular – Dr. Smartphone 48' + (code ? (' ('+code+')') : ''));
+    const body = encodeURIComponent('Name: ' + name + '\nE-Mail: ' + email + '\n' + (code ? ('Auftragscode: ' + code + '\n') : '') + '\n' + msg + '\n');
+    window.location.href = 'mailto:drsmartphone48268@gmail.com?subject=' + subject + '&body=' + body;
+  });
+</script>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 Dr. Smartphone 48. Alle Rechte vorbehalten.</p>
+        <div class="footer-legal">
+          <a href="./impressum.html">Impressum</a>
+          <a href="./datenschutz.html">Datenschutz</a>
+          <a href="./agb.html">AGB</a>
+          <a href="./formular.html">Formular</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
