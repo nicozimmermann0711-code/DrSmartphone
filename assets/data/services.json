@@ -1,0 +1,68 @@
+[
+  {
+    "key": "screen-repair",
+    "name": "Screen Repair",
+    "base_price_cents": 12900,
+    "supportedAreas": ["screen"]
+  },
+  {
+    "key": "battery-replacement",
+    "name": "Battery Replacement",
+    "base_price_cents": 8900,
+    "supportedAreas": ["battery"]
+  },
+  {
+    "key": "charging-port",
+    "name": "Charging Port",
+    "base_price_cents": 6900,
+    "supportedAreas": ["port"]
+  },
+  {
+    "key": "back-glass",
+    "name": "Back Cover",
+    "base_price_cents": 9900,
+    "supportedAreas": ["back"]
+  },
+  {
+    "key": "camera-repair",
+    "name": "Camera Repair",
+    "base_price_cents": 10900,
+    "supportedAreas": ["camera"]
+  },
+  {
+    "key": "speaker-repair",
+    "name": "Speaker Repair",
+    "base_price_cents": 5900,
+    "supportedAreas": ["speaker"]
+  },
+  {
+    "key": "button-repair",
+    "name": "Button Repair",
+    "base_price_cents": 4900,
+    "supportedAreas": ["buttons"]
+  },
+  {
+    "key": "joystick-drift",
+    "name": "Joystick Drift Fix",
+    "base_price_cents": 5900,
+    "supportedAreas": ["joystick"]
+  },
+  {
+    "key": "hdmi-port",
+    "name": "HDMI Port Repair",
+    "base_price_cents": 11900,
+    "supportedAreas": ["hdmi"]
+  },
+  {
+    "key": "cooling-service",
+    "name": "Cooling & Fan Service",
+    "base_price_cents": 9900,
+    "supportedAreas": ["vent", "other"]
+  },
+  {
+    "key": "diagnostic",
+    "name": "Diagnostic & Cleaning",
+    "base_price_cents": 3900,
+    "supportedAreas": ["other"]
+  }
+]
