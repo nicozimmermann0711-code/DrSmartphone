@@ -1,0 +1,16 @@
+<svg width="900" height="650" viewBox="0 0 900 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tabletBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1b2b"/>
+      <stop offset="1" stop-color="#0a0f19"/>
+    </linearGradient>
+    <linearGradient id="tabletScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f2747"/>
+      <stop offset="1" stop-color="#06131f"/>
+    </linearGradient>
+  </defs>
+  <rect x="40" y="40" width="820" height="570" rx="46" fill="url(#tabletBody)" stroke="#1f3354" stroke-width="8"/>
+  <rect x="80" y="90" width="740" height="470" rx="30" fill="url(#tabletScreen)" stroke="#2BA9B8" stroke-opacity="0.25" stroke-width="4"/>
+  <circle cx="80" cy="325" r="16" fill="#14263d"/>
+  <circle cx="820" cy="325" r="16" fill="#14263d"/>
+</svg>
