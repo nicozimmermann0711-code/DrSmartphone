@@ -1,3 +1,3 @@
 # DrSmartphone
 
-Reparatur- und Service-Portal für Smartphones
+Reparatur- und Service-Portal für Smartphones!
