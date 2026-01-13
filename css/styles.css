@@ -1,3 +1,7 @@
+/* Import base CSS files */
+@import url('./tokens.css');
+@import url('./components.css');
+
 /**
  * Dr. Smartphone 48 — Styles v2 (Komplett-Redesign)
  * Ziel: modern, ruhig, premium. Weniger harte Kanten, mehr Klarheit, bessere Hierarchie.
